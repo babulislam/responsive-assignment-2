@@ -109,6 +109,9 @@ p {
 /* --------------------------
 ------Grid Section Area------
 -----------------------------*/
+.container {
+  margin: 25px auto;
+}
 .grid-section {
   display: block;
 }
@@ -121,6 +124,9 @@ p {
   padding: 10px 40px;
   margin: 0 auto;
   justify-content: center;
+}
+.products p {
+  font-size: 15px;
 }
 .product {
   width: 330px;
@@ -146,6 +152,12 @@ p {
   margin: 10px 15px;
 }
 
+.far {
+  color: #FB8200;
+  font-size: 15px;
+  font-weight: 700;
+}
+
 .seemore {
   width: 100%;
   display: flex;
@@ -159,6 +171,46 @@ p {
   font-weight: 700;
 }
 
+/* This is footer area  */
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #0A0826;
+  border: 5px solid yellowgreen;
+  padding: 10px;
+}
+.footer-section {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  width: 400px;
+  height: 200px;
+  color: white;
+  border: none;
+}
+
+.footer-section h3 {
+  color: #FFFFFF;
+  font-size: 30px;
+
+}
+.footer-section p {
+  color: #D9DBE1;
+  font-size: 20px;
+}
+.footer-icon {
+  display: block;
+  margin:5px 10px;
+}
+
+/* Media Queiry Responsive  */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
 
 /* 
 .grid-section> .see-more {
