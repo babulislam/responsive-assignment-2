@@ -81,12 +81,15 @@ p {
 }
 /* This is button color  */
 .btn-color {
+  outline: 0;
+  border: 0px;
   color: white;
   background-color: rgb(231, 41, 72);
   padding: 15px 90px;
   margin: 15px auto;
   font-size: 20px;
   font-weight: 500;
+  cursor: pointer;
   border-radius: 50px;
 }
 
@@ -103,7 +106,76 @@ p {
   padding: 10px 30px;
   margin: 30px;
 }
+/* Grid Testing  */
+.grid-section {
+  display: block;
+}
 
+.products {
+  display: grid;
+  max-width: 1200px;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px 40px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.product {
+  width: 330px;
+  height: 475px;
+  box-shadow: 5px 14px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 5px solid gray;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border: 1px solid blue;
+}
+.products img {
+  width: 300px;
+  height: 256px;
+  margin: 10px 15px;
+}
+
+.rating {
+  margin: 10px 15px;
+}
+
+/* Grid Testing  */
+/* .grid-section {
+  display: block;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border: 1px solid blue;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 5fr);
+  column-gap: 10px;
+  row-gap: 20px;
+  margin: 50px 10px;
+}
+.product {
+  width: 330px;
+  height: 475px;
+  align-items: center;
+}
+.product img {
+  width: 300px;
+  height: 256px;
+}
+
+.ratings {
+  width: 150px;
+  height: 32px;
+}
 /* Testing part 
 .menubartwo {
   display: flex;
