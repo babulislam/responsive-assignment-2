@@ -84,7 +84,7 @@ p {
   outline: 0;
   border: 0px;
   color: white;
-  background-color: rgb(231, 41, 72);
+  background-color:#E02C6D;
   padding: 15px 90px;
   margin: 15px auto;
   font-size: 20px;
@@ -106,7 +106,9 @@ p {
   padding: 10px 30px;
   margin: 30px;
 }
-/* Grid Testing  */
+/* --------------------------
+------Grid Section Area------
+-----------------------------*/
 .grid-section {
   display: block;
 }
@@ -143,6 +145,30 @@ p {
 .rating {
   margin: 10px 15px;
 }
+
+.seemore {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding-right: 14%;
+  color: #E02C6D;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+/* 
+.grid-section> .see-more {
+  display: block;
+  width: 100%;
+  justify-content: end;
+  color: #E02C6D;
+  font-size: 20px;
+  font-weight: 700;
+} */
 
 /* Grid Testing  */
 /* .grid-section {
